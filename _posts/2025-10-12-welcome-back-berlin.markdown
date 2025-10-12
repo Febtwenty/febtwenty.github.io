@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome back to Berlin!"
 date:   2025-10-12 11:29:08 +0200
-categories: jekyll update
+categories: Personal
 ---
 Hi, finally back! 
 
