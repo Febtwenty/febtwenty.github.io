@@ -3,8 +3,6 @@ layout: page
 title: CV
 permalink: /cv/
 ---
-
-# CV of Clemens Leopold
 Born and raised in Vienna, Austria.
 
 ## Youth
@@ -19,7 +17,10 @@ After some playful times at the Kollegium Kalksburg, Sir Karl Popper Schule and 
 1. Before the return to Austria: Assistant at the Process Separations Lab at ETH Zurich
 2. Plant Engineering: Process Engineer in the paper industry for Andritz, Vienna
 3. Plant Engineering: Process Automation Engineer in the pharmaceutical industry for Siemens, Vienna. Then shortly in Berlin.
-4. Founder/Head of Sustainability& GmbH, together with Albert Aigner. B2B sustainability consulting and solution engineering.
+
+## Off to Germany
+1. Founder/Head of Sustainability& GmbH, together with Albert Aigner. B2B sustainability consulting and solution engineering.
+2. Parental leave.
 
 ## Private
 Husband to Sarah and father of Felix. Happily married and living in Berlin, Germany. 
