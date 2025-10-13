@@ -21,8 +21,7 @@
 title: Clemens Leopold
 email: tba
 description: >- # this means to ignore newlines until "baseurl:"
-  Hello and welcome to my coding journey. Little blog and project page for my upcoming and achieved stuff. 
-  I hope I'll make it far! Say no to hate, only love.
+  Personal blog and project portfolio.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: N/A
