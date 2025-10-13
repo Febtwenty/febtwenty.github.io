@@ -9,3 +9,31 @@
   z-index: 1000 !important;
   background-color: #fdfdfd !important;
 }
+
+.profile-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.profile-text {
+  flex: 1;
+}
+
+.profile-image-section {
+  flex: 0 0 250px;
+}
+
+@media screen and (max-width: 768px) {
+  .profile-container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .profile-image-section {
+    flex: 0 0 auto;
+    width: 200px;
+    margin-bottom: 1rem;
+  }
+}

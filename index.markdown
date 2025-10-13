@@ -5,12 +5,12 @@
 layout: home
 ---
 
-<div style="display: flex; align-items: flex-start; gap: 2rem; margin-bottom: 2rem;">
-  <div style="flex: 1;">
+<div class="profile-container">
+  <div class="profile-text">
     <h2>Welcome!</h2>
     <p>Hello and welcome to my coding journey. Little blog and project page for my upcoming and achieved stuff. I hope I'll make it far! Say no to hate, only love.</p>
   </div>
-  <div style="flex: 0 0 250px;">
+  <div class="profile-image-section">
     <img src="/assets/images/Clemens_Leopold_lowres.jpg" alt="Clemens Leopold" style="width: 100%; border-radius: 50%; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
     <div style="margin-top: 1rem; text-align: center;">
       <div style="margin-bottom: 0.5rem;">
