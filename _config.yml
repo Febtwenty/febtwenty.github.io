@@ -23,7 +23,7 @@ email: tba
 description: >- # this means to ignore newlines until "baseurl:"
   Personal blog and project portfolio.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://febtwenty.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: N/A
 github_username:  febtwenty
 linkedin_username: clemens-leopold
@@ -32,6 +32,7 @@ linkedin_username: clemens-leopold
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.

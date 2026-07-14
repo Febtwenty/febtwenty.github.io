@@ -12,6 +12,7 @@ This is my personal corner of the web where I share my coding journey, projects,
 - CV/Resume page
 - Clean, minimalist design
 - Responsive layout
+- Auto-generated sitemap (`/sitemap.xml`) for search engines
 
 ## Tech Stack
 
@@ -20,6 +21,7 @@ This is my personal corner of the web where I share my coding journey, projects,
 - **GitHub Pages** - Hosting and deployment
 - **Claude Code** - For development
 - **SCSS** - Styling and responsive design
+- **jekyll-sitemap** - Sitemap generation
 
 ## Local Development
 
