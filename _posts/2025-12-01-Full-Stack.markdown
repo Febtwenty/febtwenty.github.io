@@ -2,7 +2,7 @@
 layout: post
 title:  "Full Stack Coding"
 date:   2025-12-01 10:26:00 +0200
-categories: coding, fullstack
+categories: [coding, fullstack]
 ---
 I am a bit over three weeks into the Full Stack Open course by the [University of Helsinki][UniHell] and I really enjoy it! I have already learned a lot about the frontend, backend, altering data and setting up an online and [live application][Phonebook] including a database. I very well know, that in times of vibecoding, Shopify, cursor etc. this is not a huge accomplishment. I could have done this in an hour with any of these tools. But I have learned a great deal about web development, javascript and deploying a webapp! Plus it is a lot more fun and challenging when I do it myself.
 

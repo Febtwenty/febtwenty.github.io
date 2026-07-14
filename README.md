@@ -46,6 +46,8 @@ about.markdown   # About page
 CV.markdown      # Resume/CV page
 ```
 
+Post URLs follow `/:year/:month/:day/:title/` and don't include categories, so a post's `categories` front matter is safe to set as a YAML list (e.g. `categories: [coding, claudecode]`) without affecting its URL.
+
 ## Contact
 
 - GitHub: [@febtwenty](https://github.com/febtwenty)
