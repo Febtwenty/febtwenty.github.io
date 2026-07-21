@@ -34,7 +34,7 @@ I have already revised the system prompt three times, so another change needed t
 These two levers have increased Mistral’s groundedness score to 91% with Claude’s staying constant. Mission accomplished. 91% is still not perfect, but the remaining “incorrect” statements are often subjective interpretations of the exhibition or remarks about its atmosphere. The LLM should continue to have some creative leeway in its responses so that they are creative and easy to read.
 
 ![Eval Runs](/assets/images/20260721_Eval_results.png)
-Results of three eval runs of the eval suite of ArtSlaw. 
+Results of three eval runs of the eval suite of ArtSlaw. The results of Claude Haiku are shown in blue, Mistral Small in orange.
 
 The final run judged around 400 claims per provider, three repeats per scenario (5 different exhibitions). Contradiction rate (claims that actively conflict with the evidence) is now at 0.2–0.3%. And the trade-off between my two providers is now visible in hard numbers: a Claude tour costs me about $0.012, a Mistral tour $0.0013 — nearly a tenth — while groundedness is only two points apart.
 
