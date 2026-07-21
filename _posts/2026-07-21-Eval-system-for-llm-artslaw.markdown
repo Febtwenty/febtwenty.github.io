@@ -11,7 +11,7 @@ One problem that emerged often was a wrong number of works or misstated type of 
 
 ### Building a judge
 
-So I built an evaluation suite. After ArtSlaw gives a tour, another AI (a stronger model acting as a judge) takes every single factual claim in the answer and checks it against the exact evidence the model actually saw, so the exhibition page plus its own search results. A claim only counts as grounded if the evidence supports it. Memorized knowledge doesn't count, no matter how correct it might be. Relying on memorized knowledge with light models such as Haiku or Mistral Small is risky, as the models with less training tokens and parameters tend to halluzinate more. Even the flagship models haluzinate, which is a fundamental problem or feature with probabilistic token predictors like LLMs.
+So I built an evaluation suite. After ArtSlaw gives a tour, another AI (a stronger model acting as a judge) takes every single factual claim in the answer and checks it against the exact evidence the model actually saw, so the exhibition page plus its own search results. A claim only counts as grounded if the evidence supports it. Memorized knowledge doesn't count, no matter how correct it might be. Relying on memorized knowledge with light models such as Haiku or Mistral Small is risky, as the models with less training tokens and parameters tend to hallucinate more. Even the flagship models hallucinate, which is a fundamental problem or feature with probabilistic token predictors like LLMs.
 
 On top of that the suite checks the facts deterministically: 
 
