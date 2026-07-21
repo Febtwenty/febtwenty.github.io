@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="180" viewBox="0 0 240 180" role="img" aria-label="No thumbnail">
+  <rect width="240" height="180" fill="#e8e8ea"/>
+  <rect x="0.5" y="0.5" width="239" height="179" fill="none" stroke="#d0d0d4"/>
+  <g fill="#b3b3ba">
+    <circle cx="86" cy="74" r="16"/>
+    <path d="M40 140 L96 92 L132 124 L160 104 L200 140 Z"/>
+  </g>
+  <text x="120" y="164" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#9a9aa2" text-anchor="middle">CL</text>
+</svg>

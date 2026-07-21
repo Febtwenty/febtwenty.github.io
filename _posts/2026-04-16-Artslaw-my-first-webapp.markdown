@@ -3,6 +3,7 @@ layout: post
 title:  "ArtSlaw - my first webapp"
 date:   2026-04-16 11:00:00 +0200
 categories: [coding, claudecode, artslaw, fullstack]
+thumbnail: /assets/images/20260416_Frontpage.png
 ---
 
 So what exactly is ArtSlaw? It is a gallery companion, that gives you a tour of an art exhibition, like a virtual gallery guide. You just past a link and voila, you get the info, you can chat about the exhibition and understand the exhibition. It is my first live webapp, you can try it at [artslaw.io][artslaw].

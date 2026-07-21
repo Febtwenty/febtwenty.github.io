@@ -3,6 +3,7 @@ layout: post
 title:  "Being back and full stack"
 date:   2025-10-14 17:32:00 +0200
 categories: [coding, vibecoding, claude]
+thumbnail: /assets/images/20251108_Alexandre_Khondji.JPEG
 ---
 Let's get back at it. There was a lot of art to be seen in Paris at Art Basel, pictures below. And a few new thoughts about my coding and AI challenge. I have to face it, getting time to code is hard while coparenting and all else but I still want to learn basics and who knows where that will take me. 
 

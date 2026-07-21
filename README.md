@@ -9,6 +9,7 @@ This is my personal corner of the web where I share my coding journey, projects,
 ## Features
 
 - Blog posts about art exhibitions, personal projects, and coding
+- Front-page post list with per-post thumbnail graphics
 - CV/Resume page
 - Clean, minimalist design
 - Responsive layout
@@ -38,15 +39,25 @@ The site will be available at `http://localhost:4000`
 
 ```
 _posts/          # Blog posts
-_includes/       # Custom template overrides
+_layouts/        # Custom theme layout overrides (e.g. home.html)
+_includes/       # Custom template partial overrides
 assets/          # Images, CSS, and other static files
 _config.yml      # Site configuration
 index.markdown   # Homepage
-about.markdown   # About page
 CV.markdown      # Resume/CV page
 ```
 
 Post URLs follow `/:year/:month/:day/:title/` and don't include categories, so a post's `categories` front matter is safe to set as a YAML list (e.g. `categories: [coding, claudecode]`) without affecting its URL.
+
+### Post thumbnails
+
+The front page (`_layouts/home.html`, which overrides Minima's default) shows a thumbnail beside each post. Set the image per post via the `thumbnail` front-matter field:
+
+```yaml
+thumbnail: /assets/images/my-image.png
+```
+
+Posts without a `thumbnail` fall back to `default_thumbnail` in `_config.yml` (`/assets/images/placeholder.svg`).
 
 ## Contact
 

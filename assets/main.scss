@@ -37,3 +37,49 @@
     margin-bottom: 1rem;
   }
 }
+
+// Front-page post list with thumbnails
+.post-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+.post-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.post-thumb {
+  flex: 0 0 120px;
+
+  img {
+    width: 120px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 6px;
+    display: block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.post-item-content {
+  flex: 1;
+  min-width: 0;
+
+  h3 {
+    margin: 0.2rem 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .post-thumb {
+    flex-basis: 90px;
+
+    img {
+      width: 90px;
+      height: 68px;
+    }
+  }
+}

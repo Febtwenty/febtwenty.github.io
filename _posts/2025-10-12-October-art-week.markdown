@@ -3,6 +3,7 @@ layout: post
 title:  "October art week!"
 date:   2025-10-12 19:36:00 +0200
 categories: contemporary art
+thumbnail: /assets/images/20251012_Beverly_Buchanan.JPEG
 ---
 It's foggy, it's cold, you're a dad in Berlin, what else to do than to visit exhibitions?
 

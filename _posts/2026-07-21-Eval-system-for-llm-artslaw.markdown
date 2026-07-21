@@ -3,6 +3,7 @@ layout: post
 title:  "How do I know that ArtSlaw actually tells the truth?"
 date:   2026-07-21 09:00:00 +0200
 categories: [artslaw, ai, evals]
+thumbnail: /assets/images/20260721_Eval_results.png
 ---
 
 ArtSlaw is my AI exhibition guide, you paste a link, it researches the show via live web search and walks you through the artist and the works. Like any other LLM, it sounds truthful and gives you the impression, that every statement is correct. But that is exactly the problem with language models, they are confident even when they are wrong.

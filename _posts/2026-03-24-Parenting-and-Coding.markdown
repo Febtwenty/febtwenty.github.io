@@ -3,6 +3,7 @@ layout: post
 title:  "Parenting and Coding"
 date:   2026-03-24 15:19:00 +0200
 categories: [coding, claudecode]
+thumbnail: /assets/images/20251014_Chatbot_2.jpg
 ---
 Parenting full time and learn to code on the side? It is a bit harder than I have initially thought. So for the time being I switched tactics to get more hands on experience with vibe coding (essentially coding with claude code). It is stunning to see what is possible with a few prompts and I still learn a lot about the modern work place. It will be quite different. More on that later.
 
