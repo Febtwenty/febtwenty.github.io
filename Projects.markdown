@@ -32,16 +32,16 @@ These three projects mark the way, oldest first.
 
 <section class="project" id="umweltbuchhaltung">
 <p class="project-year">2022</p>
-<h2 class="project-title">Umweltbuchhaltung</h2>
+<h2 class="project-title">Umweltbuchhaltung (Environmental accounting)</h2>
 <p class="project-links"><a href="https://umweltbuchhaltung.at/">umweltbuchhaltung.at</a> · code is closed, it belongs to Sustainability&amp; GmbH</p>
 <div class="project-body">
 <a class="project-image" href="https://umweltbuchhaltung.at/"><img src="{{ '/assets/images/20261006_Umweltbuchhaltung.jpg' | relative_url }}" alt="Umweltbuchhaltung.at landing page"></a>
 <div class="project-text" markdown="1">
-At Sustainability&amp;, the consultancy I co-founded, municipalities kept asking the same questions: what do our buildings consume, what does it cost, and how much CO₂ does it emit? Umweltbuchhaltung is our answer, an automated energy report for municipalities. A handful of Austrian municipalities have used it.
+At Sustainability&amp;, the consultancy I co-founded, municipalities kept asking the same questions: what do our buildings consume, what does it cost, and how much CO₂ does it emit? Umweltbuchhaltung, our automated energy report, was the solution we provided to municipalities on a recurring basis.
 
 **How it was built.** I wrote all of the code myself, by hand, in Python: reading the municipalities' Excel data, the calculations, and generating the PDF report. The key figures fed a Power BI dashboard, which I embedded in a WordPress site where customers could also download their report. API calls came later, and later still an LLM step that analyses the data and writes passages of the report.
 
-**What I learned.** It took me months. With Claude Code it would take days today, and that gap is what pulled me into building with AI.
+**What I learned.** It took me months. With Claude Code, it would only take days today. However, when debugging, I always knew exactly where to look. With vibecoding and AI, you don't get the same level of overview.
 
 <p class="badges">
 {% include badge.html name="Python" icon="python" %}
