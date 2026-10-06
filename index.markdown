@@ -9,6 +9,7 @@ layout: home
   <div class="profile-text">
     <h2>Welcome!</h2>
     <p>Hello and welcome to my coding journey. Little blog and project page for my upcoming and achieved stuff. I hope I'll make it far! Say no to hate, only love.</p>
+    <p>Curious what I've built so far? Have a look at my <a href="{{ '/projects/' | relative_url }}">projects</a>.</p>
   </div>
   <div class="profile-image-section">
     <img src="/assets/images/Clemens_Leopold_lowres.jpg" alt="Clemens Leopold" style="width: 100%; border-radius: 50%; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">

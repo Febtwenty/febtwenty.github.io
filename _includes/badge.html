@@ -1,0 +1,5 @@
+{%- comment -%}
+Tech badge: {% include badge.html name="Python" icon="python" %}
+`icon` is a file in assets/icons/ (Simple Icons); omit it for a text-only badge.
+{%- endcomment -%}
+<span class="badge">{%- if include.icon -%}<img src="{{ '/assets/icons/' | append: include.icon | append: '.svg' | relative_url }}" alt="">{%- endif -%}{{ include.name }}</span>

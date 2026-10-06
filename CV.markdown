@@ -20,7 +20,7 @@ After some playful times at the Kollegium Kalksburg, Sir Karl Popper Schule and 
 
 ## Off to Germany
 1. Founder/Head of Sustainability& GmbH, together with Albert Aigner. B2B sustainability consulting and solution engineering.
-2. Parental leave.
+2. Parental leave, and learning to code on the side. See [Projects](/projects/).
 
 ## Private
 Husband to Sarah and father of Felix. Happily married and living in Berlin, Germany. 

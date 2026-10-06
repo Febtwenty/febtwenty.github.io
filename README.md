@@ -10,6 +10,7 @@ This is my personal corner of the web where I share my coding journey, projects,
 
 - Blog posts about art exhibitions, personal projects, and coding
 - Front-page post list with per-post thumbnail graphics
+- Projects page with my coding journey
 - CV/Resume page
 - Clean, minimalist design
 - Responsive layout
@@ -44,6 +45,7 @@ _includes/       # Custom template partial overrides
 assets/          # Images, CSS, and other static files
 _config.yml      # Site configuration
 index.markdown   # Homepage
+Projects.markdown # Projects page
 CV.markdown      # Resume/CV page
 ```
 

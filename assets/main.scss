@@ -83,3 +83,122 @@
     }
   }
 }
+
+// Projects page
+.project {
+  margin-bottom: 3rem;
+}
+
+.project-year {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #828282;
+}
+
+.project-title {
+  margin: 0.1rem 0 0.25rem;
+}
+
+.project-links {
+  margin-bottom: 1rem;
+  font-size: 0.9375rem;
+}
+
+.project-body {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.project-image {
+  flex: 0 0 240px;
+
+  img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.project-text {
+  flex: 1;
+  min-width: 0;
+}
+
+// At-a-glance summary at the top of the Projects page
+.glance {
+  padding: 1rem 1.25rem;
+  margin-bottom: 2rem;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+}
+
+.glance-lead {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.glance-list {
+  margin-left: 0;
+  margin-bottom: 0.75rem;
+  list-style: none;
+
+  li {
+    margin-bottom: 0.25rem;
+  }
+
+  strong {
+    display: inline-block;
+    min-width: 3rem;
+    color: #828282;
+    font-weight: 600;
+  }
+}
+
+// Tech badges
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.15rem 0.6rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 999px;
+  background-color: #fff;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: #424242;
+  white-space: nowrap;
+
+  img {
+    width: 0.9rem;
+    height: 0.9rem;
+    opacity: 0.8;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .project-body {
+    flex-direction: column;
+  }
+
+  .project-image {
+    flex-basis: auto;
+    width: 100%;
+
+    img {
+      aspect-ratio: 16 / 9;
+    }
+  }
+}
