@@ -118,5 +118,5 @@ cv-pipeline is the public, cleaned-up version of Jobzeugs, the private repo I ru
 
 - **Plan before code.** Bigger changes start in plan mode, or with a grilling session where Claude interviews me until we agree on what to build. This page started that way.
 - **A CLAUDE.md in every repo.** It holds the conventions and context Claude needs, so I don't repeat them every session.
-- **Skills for anything I do twice.** `/check` and `/apply` above, and a grilling skill for planning.
+- **Skills for anything I do twice.** `/check` and `/apply` above, and `/grilling` for planning.
 - **Kanban tickets and small commits.** I work alone, so the board is my project manager, and every change gets one focused commit.
